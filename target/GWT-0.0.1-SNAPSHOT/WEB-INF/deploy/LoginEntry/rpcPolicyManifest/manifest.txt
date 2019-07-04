@@ -1,0 +1,3 @@
+# Module LoginEntry
+# RPC service class, partial path of RPC policy file
+com.addressbook.GWT.client.loginForm.LoginService, DBF99E62CFC50ED052A500C7290D1054.gwt.rpc

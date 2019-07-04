@@ -1,0 +1,2 @@
+serviceClass: com.addressbook.GWT.client.loginForm.LoginService
+path: DBF99E62CFC50ED052A500C7290D1054.gwt.rpc

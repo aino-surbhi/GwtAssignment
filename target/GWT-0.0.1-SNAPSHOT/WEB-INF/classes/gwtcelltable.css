@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.cellTable {
+    color: #00ff00;
+    background-color: #ff00ff;
+}
+
+.cellTableHeader {
+    color: #00ff00;
+    background-color: #ff00ff;
+}
+.cellTableFirstColumnHeader {
+    color: #15ffdd;
+}
+.cellTableLastColumnHeader {
+    color: #15ffdd;
+}
+.cellTableCell {
+    color: #15ffdd;
+}
+.cellTableEvenRow {
+    background: #5500FF;
+}
+.cellTableOddRow {
+    background: #FF0055;
+}
+.cellTableSelectedRow {
+    background: #aaaa00;
+}
+.cellTableSelectedRowCell {
+    background: #aaaa00;
+    color: #15ffdd;
+}
+.cellTableHoveredRow {
+    background: #ff12ff;
+}
+.cellTableHoveredRowCell {
+    background-color: #15ffdd;
+}
+.cellTableKeyboardSelectedRow {
+    background: #15ffdd;
+}
+.cellTableKeyboardSelectedRowCell {
+    color: #15ffdd;
+}
+.cellTableKeyboardSelectedCell {
+    color: #15ffdd;
+}
