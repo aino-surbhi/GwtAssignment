@@ -1,13 +1,16 @@
 pipeline {
-  agent any
+  agent {
+    docker {
+      image 'maven:3-alpine'
+      args '-v /root/.m2:/root/.m2'
+    }
+
+  }
   stages {
     stage('Build') {
       steps {
         echo 'Building'
-        sh '''export M2_HOME=/usr/local/maven
-export PATH=$PATH:$M2_HOME/bin
-mvn --version
-mvn clean package'''
+        sh 'mvn -B -DskipTests clean package'
       }
     }
 
